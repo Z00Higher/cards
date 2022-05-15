@@ -1,19 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Card from './Components/Example.js'
 import './App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {}
-  }
 
-  render() {
+  function App() {
     return (
       <div className="App">
-        <h1>Hello React App</h1>
+        <Card/>
       </div>
     );
   }
-}
+
 
 export default App;
